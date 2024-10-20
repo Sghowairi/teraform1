@@ -17,3 +17,4 @@ resource "alicloud_security_group_rule" "allow_http_ssh" {
   source_security_group_id = alicloud_security_group.http_bastion.id
 }
 
+
